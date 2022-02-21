@@ -1,0 +1,86 @@
+@import "https://fonts.googleapis.com/css2?family=Quicksand&display=swap";
+
+body, html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+div {
+    display: block;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+.textcolor-black {
+    color: black !important;
+}
+
+.bg-black{
+    background-color: black !important;
+}
+
+.bg-faded-black {
+    background-color: rgba(0, 0, 0, 0.25)
+}
+
+
+a:hover {
+    color: #5a5f65 !important;
+}
+
+.form-control:focus {
+    border-color: white;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption{
+    position: absolute;
+    bottom: 2%;
+    transform: translateY(-80%);
+    left: -8%;
+}
+.carousel-caption h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: rgb(243, 243, 243);
+}
+
+.carousel-caption p{
+    font-size: 22px;
+    font-weight: 200;
+    color: rgb(243, 243, 243);
+}
+
+.carousel-caption h2{
+    font-size: 22px;
+    font-weight: 200;
+    color: rgb(243, 243, 243);
+}
+
+.carousel-caption p1{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(243, 243, 243);
+}
+
+.btn0{
+    background-color: white;
+    height: 45px;
+    width: 150px;
+    color: black;
+    outline: none;
+    border: none;
+}
+
+.btn0:hover{
+    background-color: rgb(167, 167, 167);
+    color: white;
+    transition: 0.4s;
+}
+
+.card{
+    border: none;
+}
